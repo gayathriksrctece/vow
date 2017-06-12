@@ -10,7 +10,7 @@ public class Vowel
         char []v={'a','e','i','o','u','A','E','I','O','U'};
         int flag=0;
         int i=0;
-        for(i=0;i<v.length;i++)
+        for(i=0;i<v.length();i++)
         {
             if(a[0]==v[i])
             {
