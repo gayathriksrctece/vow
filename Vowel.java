@@ -5,7 +5,7 @@ public class Vowel
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        String s=sc.nextLine();
+        String s=sc.next();
         char []a=s.toCharArray();
         char []v={'a','e','i','o','u','A','E','I','O','U'};
         int flag=0;
